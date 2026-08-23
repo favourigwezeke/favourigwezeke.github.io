@@ -74,7 +74,7 @@ strong {
 
 .wordmark::before {
   color: var(--rust);
-  content: "â†³ ";
+  content: "↳ ";
 }
 
 .topbar-links {
@@ -202,6 +202,33 @@ strong {
 
 .identity-links a:hover {
   color: var(--rust);
+}
+
+.research-context {
+  max-width: 1060px;
+  margin: -12px 0 30px;
+  padding: 0 0 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-context p {
+  margin: 0;
+  color: var(--soft);
+  font-size: 13.5px;
+  line-height: 1.8;
+}
+
+.research-context a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+}
+
+.research-context a:hover {
+  color: var(--forest);
+  text-decoration-color: var(--forest);
 }
 
 .research-direction {
