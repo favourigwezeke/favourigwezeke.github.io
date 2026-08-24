@@ -647,6 +647,10 @@ strong {
   object-fit: contain;
 }
 
+.communication-grid--talks .communication-visual img {
+  padding: 0;
+}
+
 .slide-placeholder {
   display: flex;
   flex-direction: column;
