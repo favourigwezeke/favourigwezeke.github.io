@@ -552,6 +552,18 @@ strong {
   line-height: 1.55;
 }
 
+.news-list a {
+  color: var(--forest);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 2px;
+}
+
+.news-list a:hover {
+  color: var(--rust);
+  text-decoration-color: var(--rust);
+}
+
 .software-card {
   margin-top: 38px;
   padding: 22px;
