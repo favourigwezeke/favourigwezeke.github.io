@@ -651,6 +651,16 @@ strong {
   padding: 0;
 }
 
+#posters .communication-visual img {
+  padding: 0;
+}
+
+#meningioma-cogsayr-2026-poster .communication-visual,
+#transqsar-poster .communication-visual,
+#meningioma-ispor-2025-poster .communication-visual {
+  aspect-ratio: 3 / 4;
+}
+
 .slide-placeholder {
   display: flex;
   flex-direction: column;
@@ -720,24 +730,18 @@ strong {
   font-size: 10.5px;
 }
 
-.communication-links a::before,
-.communication-links span::before {
+.communication-links a::before {
   color: var(--muted);
   content: "[";
 }
 
-.communication-links a::after,
-.communication-links span::after {
+.communication-links a::after {
   color: var(--muted);
   content: "]";
 }
 
 .communication-links a:hover {
   color: var(--rust);
-}
-
-.communication-links span {
-  color: var(--muted);
 }
 
 footer {
